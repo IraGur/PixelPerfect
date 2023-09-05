@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: auto;
+  background: #d74949;
+}
+.container {
+  padding: 100px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1110px;
+  background: #f3f3f3;
+}
+.content h1 {
+  margin-bottom: 12px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.content h2 {
+  margin-bottom: 7px;
+  color: #000;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.12px;
+}
+
+.content p {
+  margin-bottom: 38px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.content p > .am {
+  color: #8f2727;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.person {
+  margin: 10px 10px;
+}
+.person h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.person p {
+  text-align: left;
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.contacts {
+  margin: 10px 10px;
+}
+
+footer {
+  padding: 27px;
+  background: #3a3a3a;
+  width: 100%;
+
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
